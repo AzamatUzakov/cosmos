@@ -1,0 +1,23 @@
+@media(max-width:1330px){
+ 
+    .title-sputnik {
+        text-align: left;
+        line-height: 0px;
+        margin-left: 13%;
+        position: absolute;
+        top: 10%;
+    }
+    .title-sputnik h1 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 63.39px;
+        text-align: left;
+    }
+    .sputnik_img {
+        margin-top: -100px;
+        margin-left:100px ;
+    }
+    .sputnik_img img {
+        width: 80%;
+    }
+}

@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    max-width: 1920px;
+}
+
+section {
+    width: 100%;
+}
+
+
+/*   <section class="main-page"> */
+.main_bg {
+    background-image: url(../img/cosmosbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    padding: 30px;
+    position: relative;
+}
+
+.title-sputnik {
+    text-align: left;
+    line-height: 0px;
+    margin-left: 11%;
+    position: absolute;
+    top: 30%;
+}
+
+.title-sputnik h1 {
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 63.39px;
+    text-align: left;
+}
+
+.sputnik_img {
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+/*     </section> --> */
+
+/* <section class="fouth-section">
+ */
+
+.bg__ {
+    background-image: url(../img/list-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.first-SPA-box {
+    height: 100%;
+}
+
+.lists {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: -300px;
+}
+
+.boxes-align {
+    width: 800px;
+
+}
+
+.top-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.point {
+    cursor: pointer;
+}
+
+.second-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-list img {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.bottom-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text__ {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    color: #C6C6C6;
+    z-index: 20;
+    font-size: 30px;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 67.05px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.second-SPA-box {
+    width: 100%;
+}
+
+.flex-list {
+    padding: 50px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-top-list-boxes {
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.first-bottom-list-boxes {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px
+}
+
+/*     </section> -->
+ */
+
+
+
+/*section class="first-SPA-notebook-box"> */
+.first-SPA-notebook-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bagroung-color {
+    padding: 40px 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 50px;
+    width: 80%;
+    height: 90%;
+    background-color: #C6C6C6;
+    z-index: 199;
+    position: relative;
+}
+
+.left-block {
+    width: 450px;
+}
+
+.top-titile {
+    font-size: 16px;
+
+}
+
+.left-block p {
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.top-arrow-bg {
+    background-image: url(../img/Vector\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.bottom-arrow-bg {
+    background-image: url(../img/Vector\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 220px;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+.right-block {
+    text-align: center;
+}
+
+.portrait-biografia-box {
+    margin-bottom: 60px;
+}
+
+.portrait-biografia-box img {
+    margin-bottom: 10px;
+}
+
+.right-block p {
+    font-size: 12px;
+    color:
+        #064A6C;
+    line-height: 14px;
+
+}
+
+.img-flex-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+.img-flex-block img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.left-position-tr {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+}
+
+.right-position-tr {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
+.middle-position-tr {
+    position: absolute;
+    top: 60%;
+    right: 45%;
+}
+
+.rgiht_top-position-kv {
+    position: absolute;
+    top: 5%;
+    right: 45%;
+}
+
+.left_bottom-position-kv {
+    position: absolute;
+    bottom: 17%;
+    left: 40%;
+}
+
+.rgiht_top-position-kr {
+    position: absolute;
+    top: 12%;
+    right: 3%;
+}
+
+.left_bottom-position-kr {
+    position: absolute;
+    bottom: 35%;
+    left: 2%;
+}
+.bottom-pr{
+    position: absolute;
+    bottom: 5%;
+    right:5%;    
+}
+.middle-line{
+    position: absolute;
+    top: 36%;
+    left:36%;    
+    width: 100px;
+    border-bottom: 0;
+
+}
+
+/* </section> */
