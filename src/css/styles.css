@@ -59,6 +59,7 @@ section {
     background-size: cover;
     width: 100%;
     height: 100vh;
+    overflow: hidden;
 }
 
 .first-SPA-box {
@@ -158,7 +159,11 @@ section {
 
 
 /*section class="first-SPA-notebook-box"> */
-.first-SPA-notebook-box {
+.first-SPA-notebook-box,
+.second-SPA-notebook-box,
+.third-SPA-notebook-box,
+.fouth-SPA-notebook-box,
+.fiveth-SPA-notebook-box {
     width: 100%;
     height: 100%;
     display: flex;
@@ -175,7 +180,6 @@ section {
     width: 80%;
     height: 90%;
     background-color: #C6C6C6;
-    z-index: 199;
     position: relative;
 }
 
@@ -287,18 +291,274 @@ section {
     bottom: 35%;
     left: 2%;
 }
-.bottom-pr{
+
+.bottom-pr {
     position: absolute;
     bottom: 5%;
-    right:5%;    
+    right: 5%;
 }
-.middle-line{
+
+.middle-line {
     position: absolute;
     top: 36%;
-    left:36%;    
+    left: 36%;
     width: 100px;
     border-bottom: 0;
 
 }
+
+.sputnik-position {
+    position: absolute;
+    bottom: -10%;
+    right: -10%;
+    cursor: pointer;
+}
+
+.animatetSputnik {
+    position: absolute;
+    scale: 2;
+    top: 48%;
+    right: 42%;
+    transition: .5s ease;
+    animation: moveCenter 0.5s ease forwards;
+}
+
+@keyframes moveCenter {
+    0% {
+        position: absolute;
+        bottom: -1%;
+        right: 0%;
+    }
+
+    10% {
+        position: absolute;
+        bottom: 8%;
+        right: 9%;
+    
+    }
+    20% {
+        position: absolute;
+        bottom: 18%;
+        right: 19%;
+    
+    }
+
+    30% {
+        position: absolute;
+        bottom: 28%;
+        right: 29%;
+    }
+
+    68%,
+    72% {
+        position: absolute;
+        bottom: 38%;
+        right: 39%;
+    }
+    
+
+    100% {
+        position: absolute;
+        top: 48%;
+        right: 42%;
+    }
+}
+
+.left-position-second-kv {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    z-index: 999;
+}
+
+.right-position-third-kv {
+    position: absolute;
+    top: 4%;
+    right: 10%;
+}
+
+.left-position-third-tr {
+    position: absolute;
+    top: 2%;
+    left: 20%;
+
+}
+
+.left-position-third-kv {
+    position: absolute;
+    top: 30%;
+    left: 2%;
+
+}
+
+.left_bottom-third-position-kv {
+    position: absolute;
+    bottom: 13%;
+    left: 45%;
+
+}
+
+.middle_top-third-position-kr {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+
+}
+
+.left_bottom-third-position-kr {
+    position: absolute;
+    bottom: 4%;
+    left: 6%;
+
+}
+
+.top-third-position-pr {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+
+}
+
+.bottom-third-position-pr {
+    position: absolute;
+    bottom: 10%;
+    right: 35%;
+
+}
+
+.right-third-line {
+    position: absolute;
+    top: 4%;
+    right: 30%;
+    width: 100px;
+    border-bottom: 0px;
+}
+
+.middle-third-line {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 100px;
+    border-bottom: 0px;
+
+}
+
+.img-fifth-list-box {
+    display: flex;
+}
+
+.portrait-fouth-biografia-box {
+    text-align: start;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.left_top-fouth-position-kv {
+    position: absolute;
+    top: 1%;
+    left: 10%;
+}
+
+.middle-fouth-line {
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    width: 100px;
+    border-bottom: 0px;
+}
+
+.left-fouth-position-kr {
+    position: absolute;
+    bottom: 35%;
+    left: 2%;
+}
+
+.middle-fouth-position-kr {
+    position: absolute;
+    bottom: 35%;
+    left: 44%;
+}
+
+.left_bottom-fouth-position-kv {
+    position: absolute;
+    bottom: 10%;
+    left: 42%;
+}
+
+.left-fouth-position-tr {
+    position: absolute;
+    top: 45%;
+    right: 30%;
+}
+
+.right-fouth-position-tr {
+    position: absolute;
+    top: 49%;
+    right: 1%;
+}
+
+.right-bottom-fouth-line {
+    position: absolute;
+    bottom: 7%;
+    right: 2%;
+    width: 100px;
+    border-bottom: 0px;
+
+}
+
+
+
+
+
+.second-left-list-boxes {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.first-position-img {
+    position: absolute;
+    top: 25%;
+    left: 0%;
+}
+
+.third-position-img {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+}
+
+.fouth-position-img {
+    position: absolute;
+    top: 33%;
+    right: 0%;
+}
+
+.second-position-img {
+    position: absolute;
+    bottom: -20%;
+    left: 25%;
+}
+
+.fiveth-portrait-biografia-box p {
+    font-size: 16px;
+    text-align: start;
+    color: black;
+    line-height: 25px;
+}
+
+.img-fiveth-flex-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.right-fiveth-block {
+    width: 99%;
+}
+
+
+
 
 /* </section> */
