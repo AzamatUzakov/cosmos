@@ -171,6 +171,23 @@ section {
     justify-content: center;
 }
 
+.first-SPA-box,
+.second-SPA-box,
+.third-SPA-box,
+.fouth-SPA-box,
+.fifth-SPA-box,
+.sixth-SPA-box {
+    display: none;
+    transition: .7s ease;
+    overflow: hidden;
+}
+
+.show-page {
+    display: block;
+    overflow: hidden;
+
+}
+
 .bagroung-color {
     padding: 40px 50px;
     display: flex;
@@ -334,13 +351,14 @@ section {
         position: absolute;
         bottom: 8%;
         right: 9%;
-    
+
     }
+
     20% {
         position: absolute;
         bottom: 18%;
         right: 19%;
-    
+
     }
 
     30% {
@@ -355,7 +373,7 @@ section {
         bottom: 38%;
         right: 39%;
     }
-    
+
 
     100% {
         position: absolute;
